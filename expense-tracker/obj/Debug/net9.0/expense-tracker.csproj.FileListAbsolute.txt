@@ -95,3 +95,4 @@
 /home/twofacedshark/repos/expense-tracker/expense-tracker/obj/Debug/net9.0/expense-tracker.pdb
 /home/twofacedshark/repos/expense-tracker/expense-tracker/obj/Debug/net9.0/expense-tracker.genruntimeconfig.cache
 /home/twofacedshark/repos/expense-tracker/expense-tracker/obj/Debug/net9.0/ref/expense-tracker.dll
+/home/twofacedshark/repos/expense-tracker/expense-tracker/obj/Debug/net9.0/expense-tracker.sourcelink.json

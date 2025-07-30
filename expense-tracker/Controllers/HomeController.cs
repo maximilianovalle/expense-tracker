@@ -13,14 +13,16 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    // Home Page
     public IActionResult Index()
     {
-        return View();
+        return View();  // references Views > Home > Index.cshtml view
     }
 
+    // Privacy Policy Page
     public IActionResult Privacy()
     {
-        return View();
+        return View();  // references Views > Home > Privacy.cshtml view
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
