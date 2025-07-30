@@ -1,3 +1,5 @@
+// entire project configuration
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -20,10 +22,10 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
+// default Route
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Home}/{action=Index}/{id?}")  // {HomeController.cs}/{public IActionResult Index()}
     .WithStaticAssets();
-
 
 app.Run();

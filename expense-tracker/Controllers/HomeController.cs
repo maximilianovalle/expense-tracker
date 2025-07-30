@@ -13,13 +13,18 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    // Home Page
+    // default Home Page
     public IActionResult Index()
     {
         return View();  // references Views > Home > Index.cshtml view
     }
 
-    // Privacy Policy Page
+    public IActionResult Expenses()
+    {
+        return View();   // references Views > Home > Expenses.cshtml
+    }
+
+    // default Privacy Policy Page
     public IActionResult Privacy()
     {
         return View();  // references Views > Home > Privacy.cshtml view
